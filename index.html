@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game | JavaScript</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="description" content="Hangman Game made with HTML, CSS, and JavaScript.">
+    <meta name="keywords" content="Hangman Game, HTML, CSS, JavaScript">
+    <meta name="author" content="Ajay Dhangar">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="3 days">
+    <meta name="language" content="English">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@CodesWithAjay">
+    <meta name="twitter:creator" content="@CodesWithAjay">
+    <meta property="og:url" content="https://ajay-dhangar.github.io/Hangman-Game/">
+    <meta property="og:title" content="Hangman Game | JavaScript">
+    <meta property="og:description" content="Hangman Game made with HTML, CSS, and JavaScript.">
+    <!-- <meta property="og:image" content="https://ajay-dhangar.github.io/Hangman-Game/preview.png"> -->
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Hangman Game">
+
+    <script src="./scripts/word-list.js" defer></script>
+    <script src="./scripts/script.js" defer></script>
+</head>
+<body>
+    <div class="game-modal">
+        <div class="content">
+            <img src="#" alt="gif">
+            <h4>Game Over!</h4>
+            <p>The correct word was: <b>rainbow</b></p>
+            <button class="play-again">Play Again</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="hangman-box">
+            <img src="#" draggable="false" alt="hangman-img">
+            <h1>Hangman Game</h1>
+        </div>
+        <div class="game-box">
+            <ul class="word-display"></ul>
+            <h4 class="hint-text">Hint: <b></b></h4>
+            <h4 class="guesses-text">Incorrect guesses: <b></b></h4>
+            <div class="keyboard"></div>
+        </div>
+    </div>
+</body>
+</html>
