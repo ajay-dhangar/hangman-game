@@ -40,3 +40,6 @@ This is a simple hangman game that I created using JavaScipt. The game is played
 ## Screenshots
 
 ![image](https://github.com/user-attachments/assets/969f55da-7357-434d-87f1-bbbe145636db)
+
+![image](https://github.com/user-attachments/assets/3c6390b3-466e-4150-ac52-c244854e2ae5)
+
