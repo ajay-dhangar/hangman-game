@@ -36,3 +36,7 @@ This is a simple hangman game that I created using JavaScipt. The game is played
 ## Demo
 
 [Click here to play the game](https://ajay-dhangar.github.io/hangman-game/)
+
+## Screenshots
+
+![image](https://github.com/user-attachments/assets/969f55da-7357-434d-87f1-bbbe145636db)
